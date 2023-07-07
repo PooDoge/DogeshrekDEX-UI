@@ -1,4 +1,4 @@
-import { ChainId, JSBI, Token, TokenAmount } from '@baguette-exchange/sdk'
+import { ChainId, JSBI, Token, TokenAmount } from 'dogeshrek-sdk'
 import { BigNumber } from 'ethers'
 import { ZERO_ADDRESS } from '../constants'
 import { computeBagCirculation } from './computeBagCirculation'

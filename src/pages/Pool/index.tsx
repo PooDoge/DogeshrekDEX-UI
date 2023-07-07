@@ -1,6 +1,6 @@
 import React, { useContext, useMemo } from 'react'
 import styled, { ThemeContext } from 'styled-components'
-import { Pair } from '@baguette-exchange/sdk'
+import { Pair } from 'dogeshrek-sdk'
 import { Link } from 'react-router-dom'
 import { SwapPoolTabs } from '../../components/NavigationTabs'
 
@@ -17,7 +17,7 @@ import { useActiveWeb3React } from '../../hooks'
 import { usePairs } from '../../data/Reserves'
 import { toV2LiquidityToken, useTrackedTokenPairs } from '../../state/user/hooks'
 import { Dots } from '../../components/swap/styleds'
-import { ChainId } from '@baguette-exchange/sdk'
+import { ChainId } from 'dogeshrek-sdk'
 import { CardSection, DataCard, CardNoise, CardBGImage } from '../../components/pool/styled'
 
 const PageWrapper = styled(AutoColumn)`

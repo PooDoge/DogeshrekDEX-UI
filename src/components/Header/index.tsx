@@ -1,4 +1,4 @@
-import { ChainId, TokenAmount } from '@baguette-exchange/sdk'
+import { ChainId, TokenAmount } from 'dogeshrek-sdk'
 import React, { useState } from 'react'
 import { Text } from 'rebass'
 import { NavLink } from 'react-router-dom'

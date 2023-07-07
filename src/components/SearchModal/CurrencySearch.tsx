@@ -1,4 +1,4 @@
-import { Currency, CAVAX, Token } from '@baguette-exchange/sdk'
+import { Currency, CAVAX, Token } from 'dogeshrek-sdk'
 import React, { KeyboardEvent, RefObject, useCallback, useContext, useEffect, useMemo, useRef, useState } from 'react'
 import ReactGA from 'react-ga'
 import { useTranslation } from 'react-i18next'

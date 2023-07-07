@@ -1,5 +1,5 @@
 import { Contract } from '@ethersproject/contracts'
-import { WAVAX } from '@baguette-exchange/sdk'
+import { WAVAX } from 'dogeshrek-sdk'
 import { abi as IBaguettePairABI } from '@baguette-exchange/contracts/artifacts/contracts/baguette-core/interfaces/IBaguettePair.sol/IBaguettePair.json'
 import { abi as STAKING_REWARDS_ABI } from '@baguette-exchange/contracts/artifacts/contracts/StakingRewards.sol/StakingRewards.json'
 import { useMemo } from 'react'

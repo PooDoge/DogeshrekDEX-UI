@@ -1,4 +1,4 @@
-import { Currency, CurrencyAmount, Fraction, Percent } from '@baguette-exchange/sdk'
+import { Currency, CurrencyAmount, Fraction, Percent } from 'dogeshrek-sdk'
 import React from 'react'
 import { Text } from 'rebass'
 import { ButtonPrimary } from '../../components/Button'

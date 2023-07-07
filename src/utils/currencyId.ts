@@ -1,4 +1,4 @@
-import { Currency, CAVAX, Token } from '@baguette-exchange/sdk'
+import { Currency, CAVAX, Token } from 'dogeshrek-sdk'
 
 export function currencyId(currency: Currency): string {
   if (currency === CAVAX) return 'AVAX'

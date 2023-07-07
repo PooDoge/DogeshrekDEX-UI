@@ -5,7 +5,7 @@ import { JsonRpcSigner, Web3Provider } from '@ethersproject/providers'
 import { BigNumber } from '@ethersproject/bignumber'
 import { abi as IBaguetteRouterABI } from '@baguette-exchange/contracts/artifacts/contracts/baguette-periphery/interfaces/IBaguetteRouter.sol/IBaguetteRouter.json'
 import { ROUTER_ADDRESS } from '../constants'
-import { ChainId, JSBI, Percent, Token, CurrencyAmount, Currency, CAVAX } from '@baguette-exchange/sdk'
+import { ChainId, JSBI, Percent, Token, CurrencyAmount, Currency, CAVAX } from 'dogeshrek-sdk'
 import { TokenAddressMap } from '../state/lists/hooks'
 
 // returns the checksummed address if the address is valid, otherwise returns false

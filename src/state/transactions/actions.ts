@@ -1,5 +1,5 @@
 import { createAction } from '@reduxjs/toolkit'
-import { ChainId } from '@baguette-exchange/sdk'
+import { ChainId } from 'dogeshrek-sdk'
 
 export interface SerializableTransactionReceipt {
   to: string

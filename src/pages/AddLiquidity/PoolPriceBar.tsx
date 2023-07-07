@@ -1,4 +1,4 @@
-import { Currency, Percent, Price } from '@baguette-exchange/sdk'
+import { Currency, Percent, Price } from 'dogeshrek-sdk'
 import React, { useContext } from 'react'
 import { Text } from 'rebass'
 import { ThemeContext } from 'styled-components'

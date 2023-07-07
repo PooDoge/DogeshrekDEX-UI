@@ -1,4 +1,4 @@
-import { JSBI, Token, TokenAmount } from '@baguette-exchange/sdk'
+import { JSBI, Token, TokenAmount } from 'dogeshrek-sdk'
 
 export async function computeBagCirculation(
   bag: Token,

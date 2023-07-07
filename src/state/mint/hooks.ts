@@ -1,4 +1,4 @@
-import { Currency, CurrencyAmount, CAVAX, JSBI, Pair, Percent, Price, TokenAmount } from '@baguette-exchange/sdk'
+import { Currency, CurrencyAmount, CAVAX, JSBI, Pair, Percent, Price, TokenAmount } from 'dogeshrek-sdk'
 import { useCallback, useMemo } from 'react'
 import { useDispatch, useSelector } from 'react-redux'
 import { PairState, usePair } from '../../data/Reserves'

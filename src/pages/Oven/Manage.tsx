@@ -2,7 +2,7 @@ import React, { useCallback, useState } from 'react'
 import { AutoColumn } from '../../components/Column'
 import styled from 'styled-components'
 
-import { JSBI, ChainId } from '@baguette-exchange/sdk'
+import { JSBI, ChainId } from 'dogeshrek-sdk'
 import { RouteComponentProps } from 'react-router-dom'
 import CurrencyLogo from '../../components/CurrencyLogo'
 import { useCurrency } from '../../hooks/Tokens'

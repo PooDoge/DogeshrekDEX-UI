@@ -1,4 +1,4 @@
-import { JSBI, TokenAmount, Pair, Currency, ChainId } from '@baguette-exchange/sdk'
+import { JSBI, TokenAmount, Pair, Currency, ChainId } from 'dogeshrek-sdk'
 import { useMemo } from 'react'
 import { abi as IBaguettePairABI } from '@baguette-exchange/contracts/artifacts/contracts/baguette-core/interfaces/IBaguettePair.sol/IBaguettePair.json'
 import { Interface } from '@ethersproject/abi'

@@ -1,4 +1,4 @@
-import { ChainId, JSBI, Percent, Token, WAVAX } from '@baguette-exchange/sdk'
+import { ChainId, JSBI, Percent, Token, WAVAX } from 'dogeshrek-sdk'
 import { AbstractConnector } from '@web3-react/abstract-connector'
 
 import { injected } from '../connectors'
@@ -9,9 +9,9 @@ export const ABOUT_PAGE = 'https://dogeshrek.gitbook.io/'
 
 export const LANDING_PAGE = 'https://dogeshrek.com/'
 export const ANALYTICS_PAGE = 'https://dexscreener.com/dogechain/dogeshrek'
-export const Bridge_Page = 'https://app.multichain.org/#/router?bridgetoken=0x2BE0096B24343549E34224aa9aa297E99961023D'
+export const Bridge_Page = 'https://dive.dogechain.dog/bridge'
 
-export const EXTERNAL_FARM_PAGE = 'https://dogecornbeta.netlify.app/farms'
+export const EXTERNAL_FARM_PAGE = 'https://farm.kibby.dog'
 
 export const ZERO_ADDRESS = '0x0000000000000000000000000000000000000000'
 

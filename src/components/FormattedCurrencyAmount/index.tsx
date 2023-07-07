@@ -1,5 +1,5 @@
 import React from 'react'
-import { CurrencyAmount, Fraction, JSBI } from '@baguette-exchange/sdk'
+import { CurrencyAmount, Fraction, JSBI } from 'dogeshrek-sdk'
 
 const CURRENCY_AMOUNT_MIN = new Fraction(JSBI.BigInt(1), JSBI.BigInt(1000000))
 

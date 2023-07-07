@@ -1,6 +1,6 @@
 import { MaxUint256 } from '@ethersproject/constants'
 import { TransactionResponse } from '@ethersproject/providers'
-import { Trade, TokenAmount, CurrencyAmount, CAVAX, ChainId } from '@baguette-exchange/sdk'
+import { Trade, TokenAmount, CurrencyAmount, CAVAX, ChainId } from 'dogeshrek-sdk'
 import { useCallback, useMemo } from 'react'
 import { ROUTER_ADDRESS } from '../constants'
 import { useTokenAllowance } from '../data/Allowances'

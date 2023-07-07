@@ -1,6 +1,6 @@
 import { Version } from '../../hooks/useToggledVersion'
 import { parseUnits } from '@ethersproject/units'
-import { Currency, CurrencyAmount, CAVAX, JSBI, Token, TokenAmount, Trade, ChainId } from '@baguette-exchange/sdk'
+import { Currency, CurrencyAmount, CAVAX, JSBI, Token, TokenAmount, Trade, ChainId } from 'dogeshrek-sdk'
 import { ParsedQs } from 'qs'
 import { useCallback, useEffect, useState } from 'react'
 import { useDispatch, useSelector } from 'react-redux'

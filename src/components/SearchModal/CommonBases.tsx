@@ -1,6 +1,6 @@
 import React from 'react'
 import { Text } from 'rebass'
-import { ChainId, Currency, currencyEquals, CAVAX, Token } from '@baguette-exchange/sdk'
+import { ChainId, Currency, currencyEquals, CAVAX, Token } from 'dogeshrek-sdk'
 import styled from 'styled-components'
 
 import { SUGGESTED_BASES } from '../../constants'

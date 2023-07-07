@@ -1,4 +1,4 @@
-import { Currency } from '@baguette-exchange/sdk'
+import { Currency } from 'dogeshrek-sdk'
 import React from 'react'
 import styled from 'styled-components'
 import CurrencyLogo from '../CurrencyLogo'

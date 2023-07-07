@@ -1,4 +1,4 @@
-import { ChainId } from '@baguette-exchange/sdk'
+import { ChainId } from 'dogeshrek-sdk'
 import React, { useContext } from 'react'
 import styled, { ThemeContext } from 'styled-components'
 import Modal from '../Modal'

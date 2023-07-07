@@ -1,4 +1,4 @@
-import { Currency, CurrencyAmount, currencyEquals, CAVAX, Token } from '@baguette-exchange/sdk'
+import { Currency, CurrencyAmount, currencyEquals, CAVAX, Token } from 'dogeshrek-sdk'
 import React, { CSSProperties, MutableRefObject, useCallback, useMemo } from 'react'
 import { FixedSizeList } from 'react-window'
 import { Text } from 'rebass'

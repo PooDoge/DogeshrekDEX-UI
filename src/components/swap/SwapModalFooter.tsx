@@ -1,4 +1,4 @@
-import { Trade, TradeType } from '@baguette-exchange/sdk'
+import { Trade, TradeType } from 'dogeshrek-sdk'
 import React, { useContext, useMemo, useState } from 'react'
 import { Repeat } from 'react-feather'
 import { Text } from 'rebass'

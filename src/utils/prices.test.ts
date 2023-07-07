@@ -1,4 +1,4 @@
-import { ChainId, JSBI, Pair, Route, Token, TokenAmount, Trade, TradeType } from '@baguette-exchange/sdk'
+import { ChainId, JSBI, Pair, Route, Token, TokenAmount, Trade, TradeType } from 'dogeshrek-sdk'
 import { computeTradePriceBreakdown } from './prices'
 
 describe('prices', () => {

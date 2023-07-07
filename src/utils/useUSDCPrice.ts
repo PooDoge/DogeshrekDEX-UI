@@ -1,6 +1,6 @@
 // TODO: Actually calculate price
 
-import { ChainId, Currency, currencyEquals, JSBI, Price, WAVAX } from '@baguette-exchange/sdk'
+import { ChainId, Currency, currencyEquals, JSBI, Price, WAVAX } from 'dogeshrek-sdk'
 import { useMemo } from 'react'
 import { DAI } from '../constants'
 import { PairState, usePairs } from '../data/Reserves'

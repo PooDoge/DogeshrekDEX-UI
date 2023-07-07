@@ -1,4 +1,4 @@
-import { Currency, CAVAX, Token, ChainId } from '@baguette-exchange/sdk'
+import { Currency, CAVAX, Token, ChainId } from 'dogeshrek-sdk'
 import React, { useMemo } from 'react'
 import styled from 'styled-components'
 

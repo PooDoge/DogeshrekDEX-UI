@@ -1,4 +1,4 @@
-import { CurrencyAmount, CAVAX, JSBI } from '@baguette-exchange/sdk'
+import { CurrencyAmount, CAVAX, JSBI } from 'dogeshrek-sdk'
 import { MIN_ETH } from '../constants'
 
 /**

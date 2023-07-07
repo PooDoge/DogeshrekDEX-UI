@@ -1,4 +1,4 @@
-import { ChainId } from '@baguette-exchange/sdk'
+import { ChainId } from 'dogeshrek-sdk'
 import MULTICALL_ABI from './abi.json'
 
 const MULTICALL_NETWORKS: { [chainId in ChainId]: string } = {

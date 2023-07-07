@@ -1,4 +1,4 @@
-import { ChainId, CurrencyAmount, JSBI, Token, TokenAmount, WAVAX, Pair } from '@baguette-exchange/sdk'
+import { ChainId, CurrencyAmount, JSBI, Token, TokenAmount, WAVAX, Pair } from 'dogeshrek-sdk'
 import { useMemo } from 'react'
 import { BAG, LINK, DAI, ETH, WBTC, USDT, XAVA, SHIBX, QI, USDTE, YAK, WET, XSLR, XMTL, XCRS, USDCE, UNDEFINED, ZERO_ADDRESS } from '../../constants'
 import { STAKING_REWARDS_INTERFACE } from '../../constants/abis/staking-rewards'

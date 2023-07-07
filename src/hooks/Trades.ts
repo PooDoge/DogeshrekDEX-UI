@@ -1,4 +1,4 @@
-import { Currency, CurrencyAmount, Pair, Token, Trade } from '@baguette-exchange/sdk'
+import { Currency, CurrencyAmount, Pair, Token, Trade } from 'dogeshrek-sdk'
 import flatMap from 'lodash.flatmap'
 import { useMemo } from 'react'
 

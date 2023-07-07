@@ -1,4 +1,4 @@
-import { /* ChainId, */ WAVAX } from '@baguette-exchange/sdk'
+import { /* ChainId, */ WAVAX } from 'dogeshrek-sdk'
 import React /*,  { useState, useEffect } */ from 'react'
 import { X } from 'react-feather'
 import styled from 'styled-components'

@@ -1,4 +1,4 @@
-import { Trade } from '@baguette-exchange/sdk'
+import { Trade } from 'dogeshrek-sdk'
 import React, { Fragment, memo, useContext } from 'react'
 import { ChevronRight } from 'react-feather'
 import { Flex } from 'rebass'

@@ -1,4 +1,4 @@
-import { Token, TokenAmount } from '@baguette-exchange/sdk'
+import { Token, TokenAmount } from 'dogeshrek-sdk'
 import { useMemo } from 'react'
 import { useAllTokenBalances } from '../../state/wallet/hooks'
 

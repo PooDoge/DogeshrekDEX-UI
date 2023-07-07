@@ -1,4 +1,4 @@
-import { currencyEquals, Trade } from '@baguette-exchange/sdk'
+import { currencyEquals, Trade } from 'dogeshrek-sdk'
 import React, { useCallback, useMemo } from 'react'
 import TransactionConfirmationModal, {
   ConfirmationModalContent,

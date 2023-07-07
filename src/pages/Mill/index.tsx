@@ -9,7 +9,7 @@ import { CardSection, DataCard, CardNoise, CardBGImage } from '../../components/
 import Loader from '../../components/Loader'
 import Toggle from '../../components/Toggle'
 import { useActiveWeb3React } from '../../hooks'
-import { JSBI } from '@baguette-exchange/sdk'
+import { JSBI } from 'dogeshrek-sdk'
 
 
 const PageWrapper = styled(AutoColumn)`

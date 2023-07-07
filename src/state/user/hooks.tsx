@@ -1,4 +1,4 @@
-import { ChainId, Pair, Token } from '@baguette-exchange/sdk'
+import { ChainId, Pair, Token } from 'dogeshrek-sdk'
 import flatMap from 'lodash.flatmap'
 import { useCallback, useMemo } from 'react'
 import { shallowEqual, useDispatch, useSelector } from 'react-redux'

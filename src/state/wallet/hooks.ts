@@ -1,5 +1,5 @@
 import { BAG } from './../../constants/index'
-import { Currency, CurrencyAmount, CAVAX, JSBI, Token, TokenAmount } from '@baguette-exchange/sdk'
+import { Currency, CurrencyAmount, CAVAX, JSBI, Token, TokenAmount } from 'dogeshrek-sdk'
 import { useMemo } from 'react'
 import ERC20_INTERFACE from '../../constants/abis/erc20'
 import { useAllTokens } from '../../hooks/Tokens'
