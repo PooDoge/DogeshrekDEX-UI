@@ -32,7 +32,7 @@ import ChainListModal from './ChainListModal'
 
 
 import usePrevious from '../../hooks/usePrevious'
-import { ANALYTICS_PAGE, Bridge_Page,  EXTERNAL_FARM_PAGE } from '../../constants'
+import { EXTERNAL_FARM_PAGE, BRIDGE_PAGE } from '../../constants'
 
 const HeaderFrame = styled.div`
   display: grid;
@@ -235,6 +235,7 @@ const StyledNavLink = styled(NavLink).attrs({
     color: ${({ theme }) => darken(0.1, theme.text1)};
   }
 `
+
 const StyledExternalLink = styled(ExternalLink).attrs({
   activeClassName
 })<{ isActive?: boolean }>`
@@ -262,6 +263,32 @@ const StyledExternalLink = styled(ExternalLink).attrs({
   ${({ theme }) => theme.mediaWidth.upToExtraSmall`
       display: none;
 `}
+`
+
+const StyledDefaultExternalLink = styled(ExternalLink).attrs({
+  activeClassName
+})<{ isActive?: boolean }>`
+  ${({ theme }) => theme.flexRowNoWrap}
+  align-items: left;
+  border-radius: 3rem;
+  outline: none;
+  cursor: pointer;
+  text-decoration: none;
+  color: ${({ theme }) => theme.text2};
+  font-size: 1rem;
+  width: fit-content;
+  margin: 0 12px;
+  font-weight: 500;
+  &.${activeClassName} {
+    border-radius: 12px;
+    font-weight: 600;
+    color: ${({ theme }) => theme.text1};
+  }
+  :hover,
+  :focus {
+    text-decoration: none;
+    color: ${({ theme }) => darken(0.1, theme.text1)};
+  }
 `
 
 const NETWORK_LABELS: { [chainId in ChainId]?: string } = {
@@ -340,17 +367,13 @@ export default function Header() {
 
          
 
-          <StyledExternalLink id={`info-nav-link`} href={ANALYTICS_PAGE}>
-            Analytics <span style={{ fontSize: '11px' }}>↗</span>
-          </StyledExternalLink>
 
-          <StyledExternalLink id={`info-nav-link`} href={Bridge_Page}>
-            DogeShrek MultiChain Bridge  <span style={{ fontSize: '11px' }}>↗</span>
-          </StyledExternalLink>
+          <StyledDefaultExternalLink id={`info-nav-link`} href={EXTERNAL_FARM_PAGE}>
+            Farms  <span style={{ fontSize: '11px' }}>↗</span>
+          </StyledDefaultExternalLink>
 
-
-          <StyledExternalLink id={`info-nav-link`} href={EXTERNAL_FARM_PAGE}>
-            DogeShrek Beta Farms  <span style={{ fontSize: '11px' }}>↗</span>
+          <StyledExternalLink id={`info-nav-link`} href={BRIDGE_PAGE}>
+            Bridge  <span style={{ fontSize: '11px' }}>↗</span>
           </StyledExternalLink>
 
 

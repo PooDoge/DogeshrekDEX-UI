@@ -9,7 +9,7 @@ export const ABOUT_PAGE = 'https://dogeshrek.gitbook.io/'
 
 export const LANDING_PAGE = 'https://dogeshrek.com/'
 export const ANALYTICS_PAGE = 'https://dexscreener.com/dogechain/dogeshrek'
-export const Bridge_Page = 'https://dive.dogechain.dog/bridge'
+export const BRIDGE_PAGE = 'https://dive.dogechain.dog/bridge'
 
 export const EXTERNAL_FARM_PAGE = 'https://farm.kibby.dog'
 
@@ -36,14 +36,12 @@ export const BAG: { [chainId in ChainId]: Token } = {
   [ChainId.FUJI]: new Token(ChainId.FUJI, '0x5eb9f3D24fe25C582fCec2a32aEb774Ea8D47ae8', 18, 'BAG', 'Baguette'),
   [ChainId.AVALANCHE]: new Token(ChainId.AVALANCHE, '0xa1144a6A1304bd9cbb16c800F7a867508726566E', 18, 'BAG', 'Baguette'),
   [ChainId.DOGECHAIN]: new Token(ChainId.DOGECHAIN, '0x2BE0096B24343549E34224aa9aa297E99961023D', 18, 'DogeShrek', 'DogeShrek'),
-
 }
 
 export const TestTokenMainNet: { [chainId in ChainId]: Token } = {
   [ChainId.FUJI]: new Token(ChainId.FUJI, '0x657a0911297f8AeCdAB0b2F0Bccb4C4b7BD420A1', 18, 'testTokenMainNet', 'testTokenMainNet'),
   [ChainId.AVALANCHE]: new Token(ChainId.AVALANCHE, '0x657a0911297f8AeCdAB0b2F0Bccb4C4b7BD420A1', 18, 'testTokenMainNet', 'testTokenMainNet'),
   [ChainId.DOGECHAIN]: new Token(ChainId.DOGECHAIN, '0x657a0911297f8AeCdAB0b2F0Bccb4C4b7BD420A1', 18, 'testTokenMainNet', 'testTokenMainNet'),
-
 }
 
 

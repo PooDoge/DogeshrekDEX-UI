@@ -1,3 +1,4 @@
+// @ts-nocheck
 import { Interface, FunctionFragment } from '@ethersproject/abi'
 import { BigNumber } from '@ethersproject/bignumber'
 import { Contract } from '@ethersproject/contracts'

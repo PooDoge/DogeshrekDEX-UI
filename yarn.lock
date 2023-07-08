@@ -1368,12 +1368,6 @@
   version "1.0.4"
   resolved "https://registry.yarnpkg.com/@baguette-exchange/contracts/-/contracts-1.0.4.tgz#5474b19f3a69565beb3b06b503bbb209d10e0a7e"
   integrity sha512-YAsgGvqide4nrRUFAW6zJAn1idulEDwPLF929IyM57hZYMZcNXE9FmSS9cbojsrRECn4EaMqzRz09UJSxHfd7w==
-  dependencies:
-    abi-decoder "^2.4.0"
-    avalanche "^3.2.2"
-    base-58 "0.0.1"
-    truffle "^5.2.4"
-    web3 "^1.3.4"
 
 "@cnakazawa/watch@^1.0.3":
   version "1.0.4"
@@ -4102,10 +4096,10 @@
   dependencies:
     "@types/node" "*"
 
-"@types/node@*":
-  version "20.4.0"
-  resolved "https://registry.yarnpkg.com/@types/node/-/node-20.4.0.tgz#01d637d1891e419bc85763b46f42809cd2d5addb"
-  integrity sha512-jfT7iTf/4kOQ9S7CHV9BIyRaQqHu67mOjsIQBC3BKZvzvUB6zLxEwJ6sBE3ozcvP8kF6Uk5PXN0Q+c0dfhGX0g==
+"@types/node@*", "@types/node@>=12.12.47", "@types/node@>=13.7.0":
+  version "20.4.1"
+  resolved "https://registry.yarnpkg.com/@types/node/-/node-20.4.1.tgz#a6033a8718653c50ac4962977e14d0f984d9527d"
+  integrity sha512-JIzsAvJeA/5iY6Y/OxZbv1lUcc8dNSE77lb2gnBH+/PJ3lFR1Ccvgwl5JWnHAkNHcRsT0TbpVOsiMKZ1F/yyJg==
 
 "@types/node@11.11.6":
   version "11.11.6"
@@ -4116,11 +4110,6 @@
   version "12.12.50"
   resolved "https://registry.yarnpkg.com/@types/node/-/node-12.12.50.tgz#e9b2e85fafc15f2a8aa8fdd41091b983da5fd6ee"
   integrity sha512-5ImO01Fb8YsEOYpV+aeyGYztcYcjGsBvN4D7G5r1ef2cuQOpymjWNQi5V0rKHE6PC2ru3HkoUr/Br2/8GUA84w==
-
-"@types/node@>=12.12.47", "@types/node@>=13.7.0":
-  version "20.4.1"
-  resolved "https://registry.yarnpkg.com/@types/node/-/node-20.4.1.tgz#a6033a8718653c50ac4962977e14d0f984d9527d"
-  integrity sha512-JIzsAvJeA/5iY6Y/OxZbv1lUcc8dNSE77lb2gnBH+/PJ3lFR1Ccvgwl5JWnHAkNHcRsT0TbpVOsiMKZ1F/yyJg==
 
 "@types/node@^10.1.0", "@types/node@^10.12.18", "@types/node@^10.3.2":
   version "10.17.60"
@@ -8917,9 +8906,9 @@ doctrine@^3.0.0:
   dependencies:
     esutils "^2.0.2"
 
-"dogeshrek-sdk@https://github.com/PooDoge/dogeshrek-sdk":
-  version "1.1.9"
-  resolved "https://github.com/PooDoge/dogeshrek-sdk#ad27b9a7701f36668485b91fbb8e2ed6af31d991"
+"dogeshrek-sdk@https://github.com/PooDoge/dogeshrek-sdk.git":
+  version "1.2.1"
+  resolved "https://github.com/PooDoge/dogeshrek-sdk.git#dcfd27af4d9935458c51b48293515bf284e16e22"
   dependencies:
     "@baguette-exchange/contracts" "^1.0.4"
     "@openzeppelin/cli" "^2.8.2"
