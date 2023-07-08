@@ -5,7 +5,12 @@
   "private": true,
   "devDependencies": {
     "@baguette-exchange/contracts": "^1.0.3",
+    "@ethersproject/address": "^5.0.0-beta",
+    "@ethersproject/contracts": "^5.0.0-beta",
     "@ethersproject/experimental": "^5.0.1",
+    "@ethersproject/networks": "^5.0.0-beta",
+    "@ethersproject/providers": "^5.0.0-beta",
+    "@ethersproject/solidity": "^5.0.0-beta",
     "@pangolindex/web3-react-injected-connector": "1.0.1",
     "@popperjs/core": "^2.4.4",
     "@reach/dialog": "^0.10.3",

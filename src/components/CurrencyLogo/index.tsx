@@ -10,8 +10,8 @@ import { BAG } from '../../constants'
 
 const getTokenLogoURL = (address: string) =>
   address === BAG[ChainId.DOGECHAIN].address
-  ? `https://raw.githubusercontent.com/dogeshrek/dogeshrektokenlist/main/tokens/dogeShrek.png`
-  : `https://raw.githubusercontent.com/dogeshrek/dogeshrektokenlist/main/tokens/addresses/${address}/logo.png`
+  ? `https://raw.githubusercontent.com/PooDoge/dogeshrek-tokenlist/main/tokens/dogeShrek.png`
+  : `https://raw.githubusercontent.com/PooDoge/dogeshrek-tokenlist/main/tokens/addresses/${address}/logo.png`
 
 const StyledEthereumLogo = styled.img<{ size: string }>`
   width: ${({ size }) => size};

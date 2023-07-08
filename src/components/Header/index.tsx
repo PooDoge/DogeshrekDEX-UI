@@ -301,9 +301,9 @@ const NETWORK_LABELS: { [chainId in ChainId]?: string } = {
 
 
 const NETWORK_Logo_URL: { [chainId in ChainId]?: string } = {
-  [ChainId.FUJI]: 'https://raw.githubusercontent.com/dogeshrek/dogeshrektokenlist/main/tokens/wshib.png',
-  [ChainId.AVALANCHE]: 'https://raw.githubusercontent.com/dogeshrek/dogeshrektokenlist/main/tokens/wshib.png',
-  [ChainId.DOGECHAIN]: 'https://raw.githubusercontent.com/dogeshrek/dogeshrektokenlist/main/tokens/wdoge.png',
+  [ChainId.FUJI]: 'https://raw.githubusercontent.com/PooDoge/dogeshrek-tokenlist/main/tokens/wshib.png',
+  [ChainId.AVALANCHE]: 'https://raw.githubusercontent.com/PooDoge/dogeshrek-tokenlist/main/tokens/wshib.png',
+  [ChainId.DOGECHAIN]: 'https://raw.githubusercontent.com/PooDoge/dogeshrek-tokenlist/main/tokens/wdoge.png',
 }
 
 
