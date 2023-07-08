@@ -1,0 +1,2 @@
+(this["webpackJsonp@baguette-exchange/interface"]=this["webpackJsonp@baguette-exchange/interface"]||[]).push([[4],{1056:function(n,t){},1058:function(n,t){},1137:function(n,t){},879:function(n,t){},920:function(n,t){},922:function(n,t){},933:function(n,t){},935:function(n,t){},960:function(n,t){},965:function(n,t){},967:function(n,t){},974:function(n,t){},987:function(n,t){}}]);
+//# sourceMappingURL=4.afdb34e0.chunk.js.map
